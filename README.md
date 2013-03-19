@@ -1,4 +1,4 @@
 homo.sh
 =======
 
-Choice lunch box randomly from HottoMotto
+Display lunch box randomly from HottoMotto on console.
