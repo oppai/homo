@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s "http://www.hottomotto.com/menu/list/index.php?id=1" | grep 'class="name"' | cut -d'>' -f3 | cut -d'<' -f1 | sed -n "`expr $(expr $RANDOM % 41) + 1`p"
