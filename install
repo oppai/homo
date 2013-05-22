@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s homo /usr/local/bin/homo
+cp homo /usr/local/bin/homo
