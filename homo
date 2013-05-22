@@ -1,2 +1,3 @@
 #!/bin/bash
-curl -s "http://www.hottomotto.com/menu/list/index.php?id=1" | grep 'class="name"' | cut -d'>' -f3 | cut -d'<' -f1 | sed -n "`expr $(expr $RANDOM % 41) + 1`p"
+curl -s "http://www.hottomotto.com/menu_list/index/1" | grep \<h3\> | cut -d ">" -f2 | cut -d "<" -f1 | sed -n "`expr $(expr $RANDOM % 90) + 1`p"
+
