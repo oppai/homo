@@ -1,2 +1,3 @@
 #!/bin/bash
-cp homo /usr/local/bin/homo
+curl -sL https://raw.githubusercontent.com/oppai/homo/master/homo > /usr/local/bin/homo
+chmod +x /usr/local/bin/homo
